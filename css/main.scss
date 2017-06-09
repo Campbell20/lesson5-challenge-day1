@@ -1,0 +1,130 @@
+--- 
+---
+/* CSS Styles are defined below */
+
+
+/* For mobile phones: */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+    .col-1 {
+        width: 10%;
+    }
+    .col-2 {
+        width: 10%;
+    }
+    .col-3 {
+        width: 10%;
+    }
+    .col-4 {
+        width: 10%;
+    }
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-weight: lighter;
+    padding: 10px 0 15px 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    // background-color: orange;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    // background-color: red;
+}
+
+table {
+    border: 1px solid white;
+    vertical-align: center;
+    text-align: center;
+}
+
+th,
+td {
+    // padding: 20px;
+}
+
+
+.row-1 {
+    background-color: black;
+    color: white;
+}
+
+.row-3 td,
+.row-5 td {
+    background-color: #f0f8ff;
+    color: black;
+}
+
+.row-2 td,
+.row-4 td, {
+    background-color: #white;
+    color: black;
+}
+
+.row-2 td:first-child,
+.row-3 td:first-child,
+.row-4 td:first-child,
+.row-5 td:first-child,
+.row-6 td:first-child {
+    background-color: #5f97fb;
+    color: white;
+}
+
+
+.row-6 td {
+    color: white;
+    padding: 30px;
+}
+.row-6 td:nth-child(2) {
+    background-color: #e91e63;
+}
+
+.row-6 td:nth-child(3) {
+    background-color: #4caf50;
+}
+
+.row-6 td:last-child {
+    background-color: #03a9f4;
+}
+
+.redicons {
+    color:#e91e63;
+}
+
+.greenicons {
+    color:#4caf50;
+}
+
+.blueicons {
+    color:#5f97fb;
+}
+
+.row1-iconandtext-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.row1-icons {
+    margin-right: 10px;
+}
